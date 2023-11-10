@@ -1,4 +1,4 @@
-//Calulateprice and add GST
+//Calulateprice and add GST ?
 #include <stdio.h>
 void calculatePrice(float value);
 int main(void) {
