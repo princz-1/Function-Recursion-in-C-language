@@ -1,5 +1,4 @@
 // Addtion of two numbers by using functions ?
-
 #include <stdio.h>
 int sum(int a, int b);
 int main(void) {
