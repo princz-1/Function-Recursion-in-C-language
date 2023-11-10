@@ -1,3 +1,4 @@
+//Function Basic code 
 #include <stdio.h>
 void printhw(); // Functions declaration / prototype
 void goodbye();
