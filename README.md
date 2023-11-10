@@ -55,7 +55,7 @@ The function body contains a collection of statements that define what the funct
 
 type function-name(argument-list) //variable names are compulsory
 { 
-_______
+=====||=||=====
 }
 int fun1 (int a, int b)
 (.......)
@@ -66,7 +66,7 @@ int fun1 (int a, int b)
 main() is a user defined function which return a value of type int(by default). Every C program has exactly one main() function. main() is compulsory and it is starting point for the execution of program.
 
 int main(){
-______
+===||===
 
 return 0;
 }
