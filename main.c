@@ -1,15 +1,15 @@
+// Basic for Recursion
 #include <stdio.h>
-void printhw(); // Functions declaration / prototype
-void goodbye();
+void printHW(int count);
 int main(void) {
-
-  printhw(); // Functions calling
-  goodbye();
+  printHW(5);
+  return 0;
 }
-void printhw() { // Functions defination
+//Recursive Functions
+void printHW(int count){
+  if(count ==0){
+    return;
+  }
   printf("Hello World\n");
-  printf("my name is prince panchal\n");
-}
-void goodbye() {
-  printf("Good bye"); 
+  printHW(count-1);
 }
