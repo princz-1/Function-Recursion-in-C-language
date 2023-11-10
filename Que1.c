@@ -1,24 +1,15 @@
-//Write a function that prints Namaste if user is indian & Bonjour if the user is French ?
-
+// Sum of first n natural numbers in recursion ?
 #include <stdio.h>
-void namaste();
-void bonjour();
+int sum(int n);
 int main(void) {
-  char ch;
-  printf("Enter i for indian and f for french: ");
-  scanf( "%c", &ch);
-  if(ch == 'i'){
-    namaste();
-  }
-  else{
-    bonjour();
-  }
+  printf("sum  is : %d",sum(5));
   return 0;
 }
-
-void namaste(){
-  printf("Namaste");
-}
-void bonjour(){
-  printf("Bonjour");
+int sum(int n){
+  if(n ==1){
+    return 1;
+  }
+  int sumNm1=sum(n-1);
+  int sumN = sumNm1 + n;
+  return sumN;
 }
