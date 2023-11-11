@@ -77,6 +77,41 @@ Compiler will gives error or warning (function should return a value) if there i
 
 
 # Recursion-in-C-language
-Recursion:- Recursion means occurs again and again. A recursive functions is a function that calls itself to solve the problem.
+
+# What is recursion? Explain it with example.
+
+Recursion means occurs again and again. A recursive function is a function that calls itself to solve the problem.
+
+# Recursive function has two major cases:
+
+1. Base case(terminating condition)
+
+2. recursive case
+
+Program for factorial of a number using recursion
+
+fact(int n)
+{
+
+int f;
+
+if (n=1)
+
+return 1;
+else
+f=n fact(n-1):
+return(f);
+}
+void main()
+{
+
+int fact(int);
+
+int num.res: printf("enter a number"); scanf("%d",&num);
+
+res-fact(num): printf("fact of %d is %d ",num,res);
+
+}
+
 
 
